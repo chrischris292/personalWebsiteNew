@@ -300,14 +300,8 @@ img {
   padding-right:30%;
 }
 #map{
-  display: block;
-  left: 0;
-  max-width: 790px;
-  position: absolute;
-  position: relative;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+  height:100%;
+  width:100%;
 }
 .example {
   border-top: none;
@@ -739,3 +733,9 @@ img {
   margin-bottom:10px;
   background-color: #ecf0f1;
 }
+
+/* Map Section
+   ========================================================================== */
+   .map{
+    height:500px;
+   }

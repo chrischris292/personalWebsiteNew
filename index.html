@@ -20,6 +20,10 @@
     <script src = "js/jquery.js"></script>
     <script src = "js/jquery.tooltipster.min.js"></script>
     <script src = "js/custom.js"></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv31CvY7ujhUTP3DDn2ArfedscGjXl9lU&sensor=true">
+    </script>
+
   </head>
 
   <body>
@@ -46,13 +50,9 @@
         <p>Outside of school, I have self taught myself web development and have interned at multiple technical companies as a result. </p>
       </div>
     </section>
-    <header class="clearfix">
-      <div class="container">
-        <div class="intro">
-          <h1 id = "mapTitle">I've Lived In A Few Places</h1>
-        </div>
-        <img src="images/usmap.png" id = "map"alt="Map">
-      </div>
+    <header class="clearfix map">
+    <div id = "work-header"><div id = "workText">Where Have I Been?</div></div>
+    <div id="map"></div>
     </header>
     <div id = "work-header"><div id = "workText">Where Have I Worked?</div></div>
     <section class = "workExperience">
@@ -114,6 +114,4 @@
         </div>
       </div>
     </section>
-  
-
 </body></html>
