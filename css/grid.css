@@ -428,6 +428,12 @@ img {
 @media (min-width: 40rem) {
   .row-example .row { padding: 1rem 0 0 0; }
 }
+/* Project Experience
+   ========================================================================== */
+
+   #mapTitle{
+    color:#fff;
+   }
 
 /* Box Model
    ========================================================================== */
@@ -624,7 +630,7 @@ img {
     color:#fff;
 }
 
-/* Work Header
+/* Parralax Header
    ========================================================================== */
 #work-header{
   color: #ffffff;
@@ -632,6 +638,20 @@ img {
   height: 400px;
   width: 100%;
   background: url(../images/seattle.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#projects-header{
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../images/code.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -657,7 +677,7 @@ img {
   color:#fff;
   overflow: hidden; 
 }
-#users{
+.theIcon{
   font-size:100px;
 }
 .subtitleWork{
@@ -685,4 +705,37 @@ img {
 }
 .subThirds{
   color: #999;
+}
+.roundImage{
+  border: 3px solid #eee;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 180px;
+  height: 180px;
+  line-height: 136px;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom:10px;
+}
+
+/* Project Experience
+   ========================================================================== */
+.projectExperience{
+  background-color:#FFF;
+  color:#000;
+  overflow: hidden; 
+}
+.roundImageProject{
+  border: 3px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 180px;
+  height: 180px;
+  line-height: 136px;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom:10px;
+  background-color: #ecf0f1;
 }
