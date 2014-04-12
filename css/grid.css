@@ -654,6 +654,20 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
 }
+#hardware-header{
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../images/hardware.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 #workText{
   font-size: 4.5em;
   display: table-cell;
@@ -673,6 +687,7 @@ img {
 }
 .theIcon{
   font-size:100px;
+  text-align: center;
 }
 .subtitleWork{
   padding-top:20px;
@@ -734,6 +749,26 @@ img {
   background-color: #ecf0f1;
 }
 
+.halfColumn{
+  margin-left: 8.333333333333332%;
+  width: 41.66666666666667%;
+  float:left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align:center;
+}
+.halfColumnRight{
+    width: 41.66666666666667%;
+  float:left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align:center;
+
+}
 /* Map Section
    ========================================================================== */
    .map{
