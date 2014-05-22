@@ -1,15 +1,18 @@
-    $(window).scroll(function(e) {
-        var s = $(window).scrollTop();
-            var opacityVal = (s / 400.0);
-            $('.img').css('opacity', opacityVal);        
-    });
+   
+    time = new Date().getTime();
+$(window).scroll(function(c) {
+    var d = new Date().getTime();
+    var a = $(window).scrollTop();
+    if (d - time > 50 && a < 700) {
+        var b = (a / 300);
+        $(".img").css("opacity", b);
+        time = d
+    }
+});
 
-
-    $(document).ready(function() {
             $(document).ready(function() {
                 $('.tooltip').tooltipster();
-            });
-            $('#globe').tooltipster({
+                            $('#globe').tooltipster({
                 arrow:true,
                 position:"bottom",
                 content: $('<div>Welcome Website</div>')
@@ -34,6 +37,7 @@
                 position:"bottom",
                 content: $('<div>Mail</div>')
             });
+
     });
 
     jQuery(document).ready(function () {
@@ -117,7 +121,12 @@
         navigationControl: false,
         mapTypeControl: false,
         scaleControl: false,
-        draggable: false
+        draggable: false,
+        panControl: false,
+  		zoomControl: false,
+  		scaleControl: false,
+  		streetViewControl: false,
+  		overviewMapControl: false
     };
     map = new google.maps.Map($('#map')[0], options);
     map.setOptions({
@@ -152,7 +161,7 @@
   google.maps.event.addListener(uiuc, 'click', function() {
     infowindowUiuc.open(map,uiuc);
   });
-
-
-
 });
+
+
+
