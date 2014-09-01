@@ -700,9 +700,10 @@ width: 120px;
    ========================================================================== */
 
 .workExperience{
-  background-color:#FFF;
+  background-color:#e0f1ec;
   color:black;
   overflow: hidden; 
+  font-color: #72706d;
 }
 .theIcon{
   font-size:100px;
@@ -999,35 +1000,13 @@ Custom Components
   width: 50px;
   height: 28px;
   margin-left: -25px;
-  margin-top: -15px;
+  margin-top: -13px;
 }
 
 /* -------------------------------- 
 
-Main components 
-
+Main Components
 -------------------------------- */
-headerTimeLine {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
-}
-headerTimeLine h1 {
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
-}
-@media only screen and (min-width: 1170px) {
-  headerTimeLine {
-    height: 300px;
-    line-height: 300px;
-  }
-  headerTimeLine h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
-  }
-}
 
 #cd-timeline {
   position: relative;
@@ -1103,14 +1082,14 @@ headerTimeLine h1 {
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #c2e4d7;
 }
 .cd-timeline-img.cd-movie {
-  background: #A2DED0;
+  background: #c2e4d7;
 ;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #c2e4d7;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -1197,7 +1176,7 @@ headerTimeLine h1 {
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
-  background-color: #336E7B;
+  background-color: white;
 }
 .cd-timeline-content:after {
   content: "";
@@ -1205,11 +1184,12 @@ headerTimeLine h1 {
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+  color: #999;
+  font-size: 120%; 
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -1267,7 +1247,7 @@ headerTimeLine h1 {
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: #336E7B;
+    border-left-color: white;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -1288,7 +1268,7 @@ headerTimeLine h1 {
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: #336E7B;
+    border-right-color: white;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
