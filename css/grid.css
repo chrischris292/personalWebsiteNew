@@ -450,21 +450,6 @@ img {
   background-size: cover;
   z-index:-10;
 }
-.img{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-image:url("../images/SanDiego-Original.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: auto 100%;
-  background-size: cover;
-  z-index:-9;
-  opacity: 0;
-}
 .containerTop {
   margin-top:auto;
   margin-left:auto;
